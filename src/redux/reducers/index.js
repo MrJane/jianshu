@@ -1,5 +1,8 @@
 import {combineReducers} from 'redux';
 import header from './header';
- export default combineReducers({
-    header
+import home from './home'
+
+export default combineReducers({
+    header,
+    home
 })
