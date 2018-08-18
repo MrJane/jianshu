@@ -12,7 +12,7 @@ export const HeaderWrapper = styled.div`
     transition: all 0.4s ease-out;
     }
     .slider-enter-active{
-    width: 240px;
+    width: 350px;
     }
     .slider-exit{
     transition: all 0.4s ease-out;
@@ -58,7 +58,7 @@ color: #ea6f5a;
 export const SearchWrapper = styled.div`
 position: relative;
 float: left;
-.iconfont {//这个代表子元素类iconfont
+.zoom {//这个代表子元素类iconfont
 position: absolute;
 right: 5px;
 bottom: 5px;
@@ -72,6 +72,46 @@ background: #777;
 color: #fff;
 }
 }
+`;
+export const SearchInfo = styled.div`
+position: absolute;
+top: 54px;
+left: 0px;
+width: 240px;
+box-shadow: 0 0 8px rgba(0,0,0,.2);
+padding: 0px 20px;
+
+`
+export const SearchTitle = styled.div`
+margin-top: 20px;
+margin-bottom: 15px;
+line-height: 20px;
+font-size: 14px;
+color: #969696;
+`
+export const SearchSwitch = styled.span`
+float: right;
+font-size: 12px;
+cursor: pointer;
+.spin{
+display: inline-block;
+font-size: 12px;
+margin-right: 2px;
+transition: all .2s ease-in;
+transform: rotate(0deg);
+transform-origin: center center;
+}
+`
+export const SearchHotItem = styled.a`
+line-height: 20px;
+font-size: 12px;
+padding: 0px 5px;
+border: 1px solid #ddd;
+color: #787878;
+border-radius: 2px;
+display: inline-block;
+margin-bottom: 15px;
+margin-right: 10px;
 `
 export const NavSearch = styled.input.attrs({
     placeholder: '搜索'
@@ -87,7 +127,7 @@ padding: 0 20px;
 box-sizing: border-box;
 font-size: 14px;
 &.focused{
-width: 240px;
+width: 350px;
 }
 &::placeholder{
 color: #999;
