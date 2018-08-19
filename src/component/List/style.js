@@ -27,3 +27,14 @@ line-height: 27px;
 color: #999;
 }
 `
+export const LoadMore=styled.div`
+width: 100%;
+height: 40px;
+line-height: 40px;
+background-color: #a5a5a5;
+border-radius: 20px;
+text-align: center;
+cursor: pointer;
+color: #fff;
+margin-top: 30px;
+`

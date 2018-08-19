@@ -36,3 +36,6 @@ export const getHomeData=(data)=>({
     type:actionTypes.LOADHOMEDATA,
     data
 });
+export const loadMoreList=()=>{
+
+}

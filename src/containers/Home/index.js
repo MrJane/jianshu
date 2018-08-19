@@ -8,11 +8,16 @@ import Recommend from '../../component/Recommend';
 import {
     HomeWrapper,
     HomeLeft,
-    HomeRight
+    HomeRight,
+    BackTop
 } from './style'
 import BannerImg from '../../static/images/banner.jpg'
 import {actionCreators} from "../../redux/store";
 class Home extends Component {
+    handleScrollTop=()=>{
+
+    }
+
   render() {
     return (
           <HomeWrapper className="clearfix">
@@ -25,6 +30,7 @@ class Home extends Component {
                   <Recommend recommendList={this.props.recommendList}></Recommend>
                   <Write authors={this.props.authors}></Write>
               </HomeRight>
+              <BackTop onClick={this.handleScrollTop}>返回顶部</BackTop>
           </HomeWrapper>
     );
   }
@@ -43,7 +49,8 @@ const mapState=(state)=>{
         authors:state.home.authors,
         recommendList:state.home.recommendList,
         topicList:state.home.topicList,
-        listData:state.home.listData
+        listData:state.home.listData,
+        scrollTop:state.home.scrollTop
     }
 }
 const mapDispatch = (dispatch)=>{

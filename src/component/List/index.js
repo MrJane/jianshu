@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import {ListItem, ListInfo} from './style'
+import {ListItem, ListInfo,LoadMore} from './style'
 import {connect} from 'react-redux';
-
+import * as acticnCreators from '../../redux/actionCreators'
 class List extends Component {
   render() {
     return (
@@ -22,6 +22,7 @@ class List extends Component {
                   )
               })
           }
+          <LoadMore onClick={this.props.getMoreList}>加载更多...</LoadMore>
       </div>
     );
   }
@@ -32,4 +33,11 @@ const mapState = (state) => {
         list:state.home.listData
     }
 }
-export default connect(mapState)(List);
+const mapDispatch=(dispatch)=>{
+    return{
+        getMoreList(){
+            console.log("click")
+        }
+    }
+}
+export default connect(mapState,mapDispatch)(List);

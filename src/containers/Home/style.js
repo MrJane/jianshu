@@ -20,3 +20,14 @@ width: 280px;
 float: right;
 margin: 0px auto;
 `
+export const BackTop = styled.div`
+position: fixed;
+width: 62px;
+height: 62px;
+line-height: 62px;
+text-align: center;
+border:1px solid #ccc;
+right: 40px;
+bottom: 40px;
+font-size: 14px;
+`

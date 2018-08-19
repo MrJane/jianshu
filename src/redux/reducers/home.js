@@ -4,7 +4,8 @@ const initState = {
     topicList:[],
     listData: [],
     recommendList: [],
-    authors:[]
+    authors:[],
+    scrollTop:false
 };
 export default (state = initState, action) => {
     if (action.type === actionTypes.LOADHOMEDATA) {
