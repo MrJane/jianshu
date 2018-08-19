@@ -14,7 +14,7 @@ class Write extends Component {
                         换一批
                     </WriteSwitch>
                     <WriteAuthorItem>
-                        
+
                     </WriteAuthorItem>
 
                 </WriteTitle>

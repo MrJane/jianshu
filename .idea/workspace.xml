@@ -5,6 +5,7 @@
       <change afterPath="$PROJECT_DIR$/src/component/List/style.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/component/Recommend/style.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/component/Write/style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reducers/data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common/Header/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/Header/style.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/List/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/List/index.js" afterDir="false" />
@@ -13,7 +14,7 @@
       <change beforePath="$PROJECT_DIR$/src/containers/Home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Home/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/Home/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Home/style.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/reducers/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/topicData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/topicData.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -51,8 +52,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/component/Write/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+            <state relative-caret-position="150">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -200,13 +201,6 @@
               <item name="jianshu_react" type="b2602c69:ProjectViewProjectNode" />
               <item name="jianshu_react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
-              <item name="Write" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jianshu_react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jianshu_react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="containers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -271,16 +265,15 @@
       <workItem from="1533449000536" duration="2020000" />
       <workItem from="1533453499618" duration="12925000" />
       <workItem from="1533560791072" duration="18000" />
-      <workItem from="1534555546901" duration="32899000" />
+      <workItem from="1534555546901" duration="33079000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47862000" />
+    <option name="totallyTimeSpent" value="48042000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14330874" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -677,8 +670,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/component/Write/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        <state relative-caret-position="150">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
