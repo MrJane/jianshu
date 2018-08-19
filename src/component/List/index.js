@@ -29,7 +29,7 @@ class List extends Component {
 
 const mapState = (state) => {
     return {
-        list:state.home.list
+        list:state.home.listData
     }
 }
 export default connect(mapState)(List);

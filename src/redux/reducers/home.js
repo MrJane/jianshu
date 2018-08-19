@@ -1,15 +1,20 @@
 import * as actionTypes from '../actionTypes'
-import {obj,listData,recommendList} from "./data";
+
 const initState = {
-    topicList:obj.result,
-    list:listData.result,
-    recommendList:recommendList.result
+    topicList:[],
+    listData: [],
+    recommendList: [],
+    authors:[]
 };
 export default (state = initState, action) => {
-    if (action.type === actionTypes.SEARCH_FOUCS) {
-
-    } else if (action.type === actionTypes.SEARCH_BLUR) {
-
+    if (action.type === actionTypes.LOADHOMEDATA) {
+        return {
+            ...state,
+            topicList:action.data.topicList,
+            listData:action.data.listData,
+            recommendList:action.data.recommendList,
+            authors:action.data.authors
+        }
     }
     return state
 }

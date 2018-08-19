@@ -32,3 +32,7 @@ export const getHotItems = () => {
         })
     }
 }
+export const getHomeData=(data)=>({
+    type:actionTypes.LOADHOMEDATA,
+    data
+});

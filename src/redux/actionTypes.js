@@ -4,3 +4,4 @@ export const CHANGE_HOTLIST = 'CHANGE_HOTLIST';
 export const MOUSEENTER = 'MOUSEENTER';
 export const MOUSELEAVE = 'MOUSELEAVE';
 export const CHNAGEPAGE = 'CHNAGEPAGE';
+export const LOADHOMEDATA='LOADHOMEDATA';

@@ -20,6 +20,7 @@ import {
 class Header extends Component {
     constructor(props) {
         super(props);
+        this.state={}
     }
 
     render() {
@@ -123,7 +124,6 @@ const mapDispatch = (dispatch) => {
             } else {
                 dispatch(actionCreators.changePage(1));
             }
-            console.log(page, totalPage)
         }
     }
 }

@@ -1,29 +1,56 @@
 import React, { Component } from 'react';
+import axios from 'axios';
+import {connect} from "react-redux"
 import Topic from '../../component/Topic';
 import List from '../../component/List';
 import Write from '../../component/Write'
 import Recommend from '../../component/Recommend';
-import {HomeWrapper,
+import {
+    HomeWrapper,
     HomeLeft,
     HomeRight
 } from './style'
 import BannerImg from '../../static/images/banner.jpg'
+import {actionCreators} from "../../redux/store";
 class Home extends Component {
   render() {
     return (
           <HomeWrapper className="clearfix">
               <HomeLeft>
                   <img src={BannerImg} alt=""/>
-                  <Topic></Topic>
-                  <List></List>
+                  <Topic topicList={this.props.topicList}></Topic>
+                  <List listData={this.props.listData}></List>
               </HomeLeft>
               <HomeRight>
-                  <Recommend></Recommend>
-                  <Write></Write>
+                  <Recommend recommendList={this.props.recommendList}></Recommend>
+                  <Write authors={this.props.authors}></Write>
               </HomeRight>
           </HomeWrapper>
     );
   }
+  componentDidMount(){
+      axios.get('/api/homeList.json').then((res)=>{
+          //dispatch(actionCreators.getHomeData(res.data)) dispatch  只能在mapToDispatch才能用
+          console.log(res);
+          this.props.loadHomeData(actionCreators.getHomeData(res.data.result))
+      }).catch((err)=>{
+          console.log(err)
+      })
+  }
 }
-
-export default Home;
+const mapState=(state)=>{
+    return{
+        authors:state.home.authors,
+        recommendList:state.home.recommendList,
+        topicList:state.home.topicList,
+        listData:state.home.listData
+    }
+}
+const mapDispatch = (dispatch)=>{
+    return{
+        loadHomeData(action){
+            dispatch(action)
+        }
+    }
+}
+export default connect(mapState,mapDispatch)(Home);
