@@ -1,8 +1,9 @@
 import * as actionTypes from '../actionTypes'
-import {obj} from "./topicData";
-
+import {obj,listData,recommendList} from "./data";
 const initState = {
-    topicList:obj.result
+    topicList:obj.result,
+    list:listData.result,
+    recommendList:recommendList.result
 };
 export default (state = initState, action) => {
     if (action.type === actionTypes.SEARCH_FOUCS) {

@@ -11,8 +11,7 @@ import BannerImg from '../../static/images/banner.jpg'
 class Home extends Component {
   render() {
     return (
-      <div>
-          <HomeWrapper>
+          <HomeWrapper className="clearfix">
               <HomeLeft>
                   <img src={BannerImg} alt=""/>
                   <Topic></Topic>
@@ -23,7 +22,6 @@ class Home extends Component {
                   <Write></Write>
               </HomeRight>
           </HomeWrapper>
-      </div>
     );
   }
 }

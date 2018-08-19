@@ -2,10 +2,8 @@ import styled from 'styled-components';
 import logoPic from '../../static/logo.png'
 
 export const HeaderWrapper = styled.div`
-    //background: aqua;
     position: relative;
     height: 56px;
-    padding-right: 100px;
     box-sizing: border-box;
     border-bottom: 1px solid #f0f0f0;
     .slider-enter{
@@ -42,7 +40,6 @@ export const Nav = styled.div`
 export const NavItem = styled.div`
 line-height: 56px;
 font-size: 17px;
-padding: 0px 15px;
 &.left{
  float: left;
 }
@@ -80,7 +77,7 @@ left: 0px;
 width: 240px;
 box-shadow: 0 0 8px rgba(0,0,0,.2);
 padding: 0px 20px;
-
+background-color: #ffffff;
 `
 export const SearchTitle = styled.div`
 margin-top: 20px;
