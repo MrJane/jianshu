@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import {connect} from "react-redux"
+import {connect} from "react-redux";
+import Header from '../../common/Header'
 import Topic from '../../component/Topic';
 import List from '../../component/List';
 import Write from '../../component/Write'
@@ -15,23 +16,24 @@ import BannerImg from '../../static/images/banner.jpg'
 import {actionCreators} from "../../redux/store";
 class Home extends Component {
     handleScrollTop=()=>{
-
     }
-
   render() {
     return (
-          <HomeWrapper className="clearfix">
-              <HomeLeft>
-                  <img src={BannerImg} alt=""/>
-                  <Topic topicList={this.props.topicList}></Topic>
-                  <List listData={this.props.listData}></List>
-              </HomeLeft>
-              <HomeRight>
-                  <Recommend recommendList={this.props.recommendList}></Recommend>
-                  <Write authors={this.props.authors}></Write>
-              </HomeRight>
-              <BackTop onClick={this.handleScrollTop}>返回顶部</BackTop>
-          </HomeWrapper>
+         <div>
+             <Header></Header>
+             <HomeWrapper className="clearfix">
+                 <HomeLeft>
+                     <img src={BannerImg} alt=""/>
+                     <Topic topicList={this.props.topicList}></Topic>
+                     <List listData={this.props.listData}></List>
+                 </HomeLeft>
+                 <HomeRight>
+                     <Recommend recommendList={this.props.recommendList}></Recommend>
+                     <Write authors={this.props.authors}></Write>
+                 </HomeRight>
+                 <BackTop onClick={this.handleScrollTop}>返回顶部</BackTop>
+             </HomeWrapper>
+         </div>
     );
   }
   componentDidMount(){

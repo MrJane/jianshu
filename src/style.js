@@ -1,6 +1,9 @@
 import {injectGlobal} from 'styled-components'
 //injectGlobal：全局样式，由于react导入样式都是全局样式，所以用styled-components插件只对单个组件作用
 injectGlobal`
+*{
+box-sizing: border-box;
+}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,6 +23,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	font-family: -apple-system, "SF UI Display", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 }
 
 /* HTML5 display-role reset for older browsers */

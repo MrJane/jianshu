@@ -34,8 +34,8 @@ class Header extends Component {
             <HeaderWrapper>
                 <Logo></Logo>
                 <Nav>
-                    <NavItem className="left active">首页</NavItem>
-                    <NavItem className="left">下载APP</NavItem>
+                    <NavItem className="left active"><i className="iconfont">&#xe627;</i>首页</NavItem>
+                    <NavItem className="left download"><i className="iconfont">&#xe7bd;</i>下载APP</NavItem>
                     <NavItem className="right">登陆</NavItem>
                     <NavItem className="right">
                         <i className="iconfont">&#xe636;</i>
@@ -57,7 +57,7 @@ class Header extends Component {
                             >
                             </NavSearch>
                         </CSSTransition>
-                        <i className={this.props.focused ? "focused iconfont zoom" : 'iconfont zoom'}>&#xe614;</i>
+                        <i className={this.props.focused ? "focused iconfont zoom" : 'iconfont zoom'}>&#xe623;</i>
                         {
                             this.props.focused || this.props.mouseIn ?
                                 <SearchInfo
@@ -84,7 +84,7 @@ class Header extends Component {
                 <Addition>
                     <Button className="reg">注册</Button>
                     <Button className="writting">
-                        <i className="iconfont ">&#xe615;</i>写文章</Button>
+                        <i className="iconfont ">&#xe608;</i>&nbsp;写文章</Button>
                 </Addition>
             </HeaderWrapper>
         );
