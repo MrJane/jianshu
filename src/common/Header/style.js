@@ -40,12 +40,26 @@ export const Nav = styled.div`
 export const NavItem = styled.div`
 line-height: 56px;
 font-size: 17px;
+.iconfont{
+font-size:20px;
+margin-right: 5px;
+}
 &.left{
  float: left;
+margin-right: 10px;
+}
+&.download{
+ padding: 0px 15px;
+ cursor: pointer;
+ color: #333;
+}
+&.download:hover{
+background-color: #f5f5f5;
 }
 //&.active 表示含有这个类active类的样式
 &.active{
 color: #ea6f5a;
+margin-right: 10px;
 }
 &.right{
  float: right;
@@ -55,6 +69,7 @@ color: #ea6f5a;
 export const SearchWrapper = styled.div`
 position: relative;
 float: left;
+padding-left: 15px;
 .zoom {//这个代表子元素类iconfont
 position: absolute;
 right: 5px;
@@ -73,7 +88,7 @@ color: #fff;
 export const SearchInfo = styled.div`
 position: absolute;
 top: 54px;
-left: 0px;
+left: 15px;
 width: 240px;
 box-shadow: 0 0 8px rgba(0,0,0,.2);
 padding: 0px 20px;
