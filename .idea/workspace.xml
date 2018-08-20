@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c71627a4-e2ca-4971-8cd5-01f91fe60a47" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/component/List/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/List/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/List/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/List/style.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Detail/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Detail/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Detail/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Detail/style.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Home/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Home/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Home/style.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/actionCreators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actionCreators.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/home.js" afterDir="false" />
-    </list>
+    <list default="true" id="c71627a4-e2ca-4971-8cd5-01f91fe60a47" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -50,8 +41,8 @@
       <file leaf-file-name="style.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/containers/Detail/style.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="396">
+              <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -173,7 +164,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
@@ -265,16 +256,15 @@
       <workItem from="1533449000536" duration="2020000" />
       <workItem from="1533453499618" duration="12925000" />
       <workItem from="1533560791072" duration="18000" />
-      <workItem from="1534555546901" duration="46773000" />
+      <workItem from="1534555546901" duration="47387000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61736000" />
+    <option name="totallyTimeSpent" value="62350000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14330874" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -721,8 +711,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Detail/style.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="396">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
         </state>
       </provider>
     </entry>
