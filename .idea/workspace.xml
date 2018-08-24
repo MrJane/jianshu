@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="c71627a4-e2ca-4971-8cd5-01f91fe60a47" name="Default" comment="" />
+=======
     <list default="true" id="c71627a4-e2ca-4971-8cd5-01f91fe60a47" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
+>>>>>>> e719fbe26386fbbf682aa099a392de59ff955ecb
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -15,7 +19,125 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common/Header/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="62" column="43" lean-forward="false" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common/Header/style.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="51" column="19" lean-forward="true" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+                <marker date="1534754626140" expanded="true" signature="125:452" ph="{...}" />
+                <marker date="1534754626140" expanded="true" signature="251:293" ph="{...}" />
+                <marker date="1534754626140" expanded="true" signature="318:343" ph="{...}" />
+                <marker date="1534754626140" expanded="true" signature="360:402" ph="{...}" />
+                <marker date="1534754626140" expanded="true" signature="426:451" ph="{...}" />
+                <marker date="1534754626140" expanded="true" signature="531:715" ph="{...}" />
+                <marker date="1534754626140" expanded="true" signature="747:798" ph="{...}" />
+                <marker date="1534754626140" expanded="true" signature="834:1196" ph="{...}" />
+                <marker date="1534754626140" expanded="true" signature="880:918" ph="{...}" />
+                <marker date="1534754626140" expanded="true" signature="925:962" ph="{...}" />
+                <marker date="1534754626140" expanded="true" signature="973:1028" ph="{...}" />
+                <marker date="1534754626140" expanded="true" signature="1045:1075" ph="{...}" />
+                <marker date="1534754626140" expanded="true" signature="1113:1152" ph="{...}" />
+                <marker date="1534754626140" expanded="true" signature="1160:1195" ph="{...}" />
+                <marker date="1534754626140" expanded="true" signature="1238:1496" ph="{...}" />
+                <marker date="1534754626140" expanded="true" signature="1298:1495" ph="{...}" />
+                <marker date="1534754626140" expanded="true" signature="1459:1493" ph="{...}" />
+                <marker date="1534754626140" expanded="true" signature="1536:1676" ph="{...}" />
+                <marker date="1534754626140" expanded="true" signature="1716:1808" ph="{...}" />
+                <marker date="1534754626140" expanded="true" signature="1850:2054" ph="{...}" />
+                <marker date="1534754626140" expanded="true" signature="1904:2053" ph="{...}" />
+                <marker date="1534754626140" expanded="true" signature="2094:2273" ph="{...}" />
+                <marker date="1534754626140" expanded="true" signature="2346:2576" ph="{...}" />
+                <marker date="1534754626140" expanded="true" signature="2527:2544" ph="{...}" />
+                <marker date="1534754626140" expanded="true" signature="2559:2575" ph="{...}" />
+                <marker date="1534754626140" expanded="true" signature="2613:2670" ph="{...}" />
+                <marker date="1534754626140" expanded="true" signature="2708:2920" ph="{...}" />
+                <marker date="1534754626140" expanded="true" signature="2840:2876" ph="{...}" />
+                <marker date="1534754626140" expanded="true" signature="2882:2919" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/containers/SignIn/style.js">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="396">
+              <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/Home/style.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="actionCreators.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/redux/actionCreators.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
+=======
+            <state relative-caret-position="503">
+              <caret line="72" column="23" lean-forward="true" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
+>>>>>>> e719fbe26386fbbf682aa099a392de59ff955ecb
+              <folding>
+                <marker date="1534761388686" expanded="true" signature="80:139" ph="{...}" />
+                <marker date="1534761388686" expanded="true" signature="176:178" ph="{...}" />
+                <marker date="1534761388686" expanded="true" signature="215:391" ph="{...}" />
+                <marker date="1534761388686" expanded="true" signature="429:556" ph="{...}" />
+                <marker date="1534761388686" expanded="true" signature="516:534" ph="{...}" />
+                <marker date="1534761388686" expanded="true" signature="536:554" ph="{...}" />
+                <marker date="1534761388686" expanded="true" signature="599:629" ph="{...}" />
+                <marker date="1534761388686" expanded="true" signature="667:1336" ph="{...}" />
+                <marker date="1534761388686" expanded="true" signature="738:1060" ph="{...}" />
+                <marker date="1534761388686" expanded="true" signature="1073:1105" ph="{...}" />
+                <marker date="1534761388686" expanded="true" signature="1120:1152" ph="{...}" />
+                <marker date="1534761388686" expanded="true" signature="1171:1215" ph="{...}" />
+                <marker date="1534761388686" expanded="true" signature="1221:1335" ph="{...}" />
+                <marker date="1534761388686" expanded="true" signature="1378:1416" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/SignIn/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+>>>>>>> 85e5fcb75255eb951b2352d62de81e16250b0d64
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -228,18 +350,34 @@
       <workItem from="1533449000536" duration="2020000" />
       <workItem from="1533453499618" duration="12925000" />
       <workItem from="1533560791072" duration="18000" />
+<<<<<<< HEAD
+      <workItem from="1534555546901" duration="47387000" />
+=======
       <workItem from="1534555546901" duration="46773000" />
       <workItem from="1534726275772" duration="1388000" />
       <workItem from="1534728547833" duration="1221000" />
       <workItem from="1534750990921" duration="1656000" />
       <workItem from="1534753481887" duration="552000" />
+<<<<<<< HEAD
       <workItem from="1534754094745" duration="7385000" />
       <workItem from="1534811350798" duration="881000" />
+=======
+      <workItem from="1534754094745" duration="7308000" />
+>>>>>>> e719fbe26386fbbf682aa099a392de59ff955ecb
+>>>>>>> 85e5fcb75255eb951b2352d62de81e16250b0d64
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="74819000" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="62350000" />
+=======
+    <option name="totallyTimeSpent" value="73861000" />
+>>>>>>> e719fbe26386fbbf682aa099a392de59ff955ecb
+>>>>>>> 85e5fcb75255eb951b2352d62de81e16250b0d64
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -635,11 +773,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/common/Header/index.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="62" column="43" lean-forward="false" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="43" />
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="396">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+=======
+        <state relative-caret-position="503">
+          <caret line="72" column="23" lean-forward="true" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
+>>>>>>> 85e5fcb75255eb951b2352d62de81e16250b0d64
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+>>>>>>> e719fbe26386fbbf682aa099a392de59ff955ecb
         </state>
       </provider>
     </entry>
